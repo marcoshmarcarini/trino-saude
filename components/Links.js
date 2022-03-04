@@ -8,16 +8,16 @@ export default function Links(){
                 
                <div className="content-area">
                     <LogoTrino/>
-                    <a href="#" className="text-white bg-purple-800 hover:bg-purple-400 transition-all dark:bg-orange-60 hover:bg-orange-400 transition-all w-btnmd h-btnsm rounded-md">
+                    <a href="#" className="text-white bg-purple-800 hover:bg-purple-400  dark:bg-orange-600 dark:hover:bg-orange-400 transition-all w-btnmd h-btnsm rounded-md">
                         Site
                     </a>
-                    <a href="#" className="text-white bg-purple-800 hover:bg-purple-400 transition-all dark:bg-orange-600 hover:bg-orange-400 transition-all w-btnmd h-btnsm rounded-md">
+                    <a href="#" className="text-white bg-purple-800 hover:bg-purple-400  dark:bg-orange-600 dark:hover:bg-orange-400 transition-all w-btnmd h-btnsm rounded-md">
                         WhatsApp
                     </a>
-                    <a href="#" className="text-white bg-purple-800 hover:bg-purple-400 transition-all dark:bg-orange-600 hover:bg-orange-400 transition-all w-btnmd h-btnsm rounded-md">
+                    <a href="#" className="text-white bg-purple-800 hover:bg-purple-400  dark:bg-orange-600 dark:hover:bg-orange-400 transition-all w-btnmd h-btnsm rounded-md">
                         App Google
                     </a>
-                    <a href="#" className="text-white bg-purple-800 hover:bg-purple-400 transition-all dark:bg-orange-600 hover:bg-orange-400 transition-all w-btnmd h-btnsm rounded-md">
+                    <a href="#" className="text-white bg-purple-800 hover:bg-purple-400  dark:bg-orange-600 dark:hover:bg-orange-400 transition-all w-btnmd h-btnsm rounded-md">
                         App AppStore
                     </a>
                     <LogoHospitais/>
