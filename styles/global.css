@@ -1,0 +1,32 @@
+/**===| Importando módulos do Tailwind CSS |===**/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #ea580c;
+    width: 100%;
+}
+
+.content-area{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 800px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 10px;
+    padding: 50px;
+}
+.content-area a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    transform: translateX(50px);
+}
