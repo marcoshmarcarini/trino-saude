@@ -30,13 +30,13 @@ body{
     align-content: center;
 }
 
-.logo-trino{animation: aparecer-trino 200ms ease-in;}
-.link-1{animation: aparecer 400ms ease-in;}
-.link-2{animation: aparecer 800ms ease-in;}
-.link-3{animation: aparecer 1200ms ease-in;}
-.link-4{animation: aparecer 1600ms ease-in;}
-.link-face{animation: aparecer 2000ms ease-in;}
-.logos-hospitais{animation: aparecer-logos 2400ms ease-in;}
+.logo-trino{animation: aparecer-trino 500ms ease-in;}
+.link-1{animation: aparecer 500ms ease-in;}
+.link-2{animation: aparecer 500ms ease-in;}
+.link-3{animation: aparecer 500ms ease-in;}
+.link-4{animation: aparecer 500ms ease-in;}
+.link-face{animation: aparecer 500ms ease-in;}
+.logos-hospitais{animation: aparecer-logos 500ms ease-in;}
 
 
 
