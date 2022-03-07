@@ -1,12 +1,16 @@
+import Cabecalho from "../components/Cabecalho";
 import Links from "../components/Links";
+import Rodape from "../components/Rodape";
 
 
 export default function PaginaInicial(){
     return(
         <>
-            <div className="justify-center">
-                <Links/>
-            </div>
+            <Cabecalho/>
+                <div className="justify-center">
+                    <Links/>
+                </div>
+            <Rodape/>
         </>
     )
 }

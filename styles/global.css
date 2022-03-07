@@ -28,5 +28,43 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    transform: translateX(50px);
+}
+
+.logo-trino{animation: aparecer-trino 200ms ease-in;}
+.link-1{animation: aparecer 400ms ease-in;}
+.link-2{animation: aparecer 800ms ease-in;}
+.link-3{animation: aparecer 1200ms ease-in;}
+.link-4{animation: aparecer 1600ms ease-in;}
+.link-face{animation: aparecer 2000ms ease-in;}
+.logos-hospitais{animation: aparecer-logos 2400ms ease-in;}
+
+
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: 0.5;
+        transform: scale(0.25);
+    }
+    75%{
+        opacity: 0.75;
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes aparecer-logos {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes aparecer-trino {
+    from{opacity: 0;}
+    to{opacity: 1;}
 }
