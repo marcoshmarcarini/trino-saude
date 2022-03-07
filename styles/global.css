@@ -30,6 +30,7 @@ body{
     align-content: center;
 }
 
+/*
 .logo-trino{animation: aparecer-trino 500ms ease-in;}
 .link-1{animation: aparecer 500ms ease-in;}
 .link-2{animation: aparecer 500ms ease-in;}
@@ -37,7 +38,7 @@ body{
 .link-4{animation: aparecer 500ms ease-in;}
 .link-face{animation: aparecer 500ms ease-in;}
 .logos-hospitais{animation: aparecer-logos 500ms ease-in;}
-
+*/
 
 
 @keyframes aparecer {

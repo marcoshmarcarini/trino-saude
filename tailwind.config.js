@@ -26,7 +26,14 @@ module.exports = {
       md:'10px',
       lg:'15px',
     },
-    extend: {},
+    extend: {
+      keyframes:{
+        aparecer: {
+          'from':{opacity: 0},
+          'to':{opacity: 1}
+        },
+      }
+    },
   },
   plugins: [],
 }
