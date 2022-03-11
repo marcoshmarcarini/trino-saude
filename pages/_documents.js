@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head/>
-        <body className='bg-orange-600 dark:bg-purple-800'>
+        <body className="bg-orange-600 dark:bg-purple-800">
           <Main />
         </body>
       </Html>

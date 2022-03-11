@@ -8,7 +8,7 @@ export default function DarkMode(){
                 <div className="area-dark">
                     <img src="https://img.icons8.com/ios-glyphs/20/ffffff/sun--v1.png"/>
                     <input type="checkbox" id="btn-dark-mode" className="btn-darkmode-checkbox" onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}/>
-                    <label for="btn-dark-mode" className="ligar_dark bg-zinc-400 dark:bg-neutral-800"></label>
+                    <label for="btn-dark-mode" className="ligar_dark bg-purple-800 dark:bg-orange-600"></label>
                     <img src="https://img.icons8.com/ios-glyphs/20/ffffff/do-not-disturb-2.png"/>
                 </div>
                 {/*
