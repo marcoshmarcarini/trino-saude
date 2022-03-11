@@ -6,7 +6,7 @@ export default function Cabecalho(){
             <Head>
                 <title>Trino Saúde</title>
                 <meta name="Author" content="Marcos Henrique Marcarini Junior"/>
-                <meta name="theme-color" content="media"/>
+                <meta name="theme-color" content="class"/>
             </Head>
         </>
     )

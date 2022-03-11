@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body{
-    background-color: #ea580c;
+    /*background-color: #ea580c;*/
     width: 100%;
 }
 
@@ -59,6 +59,74 @@ body{
         transform: scale(1);
     }
 }
+
+.area-dark{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    padding: 20px;
+    transform: translateY(20px);
+    gap: 2px;
+}
+
+
+.ligar_dark{
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+
+}
+
+
+.ligar_dark::before,
+.ligar_dark::after{
+    content: "";
+    transition: all 400ms ease;
+}
+
+.ligar_dark::before{
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: black;
+}
+.ligar_dark::after{
+    position:absolute;
+    margin-top: 2px;
+    margin-left: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.btn-darkmode-checkbox:checked + .ligar_dark::before{
+    background-color: rgb(0, 0, 0);   
+}
+
+.btn-darkmode-checkbox:checked + .ligar_dark::after{
+    margin-left: 30px;
+}
+
+/*
+.circle_dark::before,
+.circle_dark::after{
+    content: "";
+    transform: translateX(30px);
+}
+.circle_dark:checked{
+    transform: translateX(30px);
+    transition: all 400ms;
+}
+*/
+
+
+.btn-darkmode-checkbox{
+    position: absolute;
+    margin-left: -9999px;
+}
+
 
 @keyframes aparecer-logos {
     from{opacity: 0;}
